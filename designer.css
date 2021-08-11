@@ -106,9 +106,9 @@ article >  h2{font-weight: bold;margin-left:47%;margin-top:100px;font-size: 25pt
 
 .img-aside{width:90%;height:250px;margin: 31px auto;border-top-right-radius: 25px;background-image: url(img/img1.jpg);background-size: cover;background-position: center;}
 
- .img-aside:nth-child(2){background-image: url(img/img3.jpg);}
+ .img-aside:nth-child(2){background-image: url(img3.jpg);}
 
- .img-aside:nth-child(3){background-image: url(img/img4.jpg);}
+ .img-aside:nth-child(3){background-image: url(img4.jpg);}
 
  .img-aside:nth-child(4){background-image: url(image2.jpg);}
 
