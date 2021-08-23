@@ -1,0 +1,977 @@
+/*p{font-family: 'Montserrat Alternates', sans-serif;}
+
+h1{font-family: 'Kufam', cursive;}  font-family: 'Montserrat Alternates', sans-serif;text-transform: uppercase;}*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width:98%;
+    margin:0 auto;
+    background: ;
+
+}
+
+
+
+h1,
+h2,
+h3 {
+    font-family: 'Kufam', cursive;
+    color: #064F5C;
+}
+
+p,
+a,
+figcaption {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+}
+
+#load1 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+header {
+    width: 100%;
+    height: 555px;
+    background-image: url(capa6.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#textoHeader {
+    padding: 0px 50px;
+    color: #fff;
+    font-size: 30pt;
+    padding-top: 200px;
+}
+
+#textoHeader2 {
+    margin-left: 4%;
+    color: #FFF;
+}
+
+#blocoChamada {
+    width: 100%;
+    height: 250px;
+    margin-top: 100px;
+    clear: both;
+}
+
+#textoChamada {
+    text-align: center;
+    padding: 50px 20px;
+    color: #333;
+    font-family: 'Montserrat Alternates', sans-serif;
+    line-height: 2;
+    text-shadow: 2px 3px 3px #fff;
+    background: #eeeeee;
+    width: 100%;
+    margin: 0px;
+}
+
+#menuzinho {
+    display: none;
+}
+
+#btnFechar {
+    display: none;
+}
+
+#filtro_header {
+    width: 100%;
+    height: 555px;
+    background: rgba(2, 2, 2, 0.3);
+}
+
+#blocoMenu{
+     margin: ;
+}
+
+nav {
+    width:100%;
+    height: 50px;
+    background: linear-gradient(to left, #129EBC, #FFF);
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+
+nav ul {
+    display: flex;
+    margin-left:55%;
+}
+
+nav li {
+    list-style: none;
+    color: #FFF;
+    line-height: 50px;
+    margin-left: 30px;
+    padding: 0px 15px;
+    font-size: 12pt;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li:hover {
+    background-color: #FFF;
+    color: #000;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#logo {
+    font-size: 18pt;
+    color: #064F5C;
+    line-height: 48px;
+    margin-left: 8%;
+    float: left;
+}
+
+#logo2 {
+    width: 3%;
+    margin: 5px;
+    position: absolute;
+}
+
+#logo2 {
+    filter: drop-shadow(2px 4px 1px #129EBC);
+}
+
+#textLog {
+    font-family: 'Kufam', cursive;
+    font-weight: bold;
+    font-size: 25pt;
+}
+
+#lorem {
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 18pt;
+}
+
+#blocoTitulo {
+    width: 100%;
+    height: 100px;
+    padding: 15px;
+}
+
+#tituloPrincipal {
+    font-size: 30pt;
+    border-left: 5px solid #129EBC;
+    padding: 0px 5px;
+}
+
+#tituloPrincipal {
+    margin-left: 5%;
+}
+
+#textoTitulo {
+    margin-left: 6%;
+}
+
+#perfilSol {
+    width: 100%;
+    height: 250px;
+    margin: 50px auto;
+    display: flex;
+   
+    padding-bottom: 50px;
+}
+
+#perfilSol>p {
+    margin-top: 80px;
+}
+
+#foto {
+   
+    height:150px;
+    border-radius: 150px;
+    margin: 1% 5%;
+}
+
+#zap {
+    position: absolute;
+    width: 10%;
+    height: 5%;
+    margin: 9% -13%;
+    cursor: pointer;
+    border: none;
+    background: #23D823;
+    color: #FFF;
+    border-radius: 100px;
+}
+
+#zap:hover {
+    background: #000;
+    transition: 0.5s;
+}
+
+#nome {
+    text-align: center;
+    color: #FFF;
+    line-height: 120px;
+    font-size: 35pt;
+    text-shadow: -2px 3px 5px #FFF;
+    background: rgba(0, 0, 0, 0.4);
+    height: 120px;
+    text-transform: capitalize;
+}
+
+#creci {
+    text-align: center;
+    color: #fff;
+    font-size: 14pt;
+    font-weight: bold
+}
+
+article,
+aside {
+    background: #f4f4f4;
+}
+
+article {
+    width: 65%;
+    height: ;
+    margin-top: 150px;
+    margin-left:2%;
+    border: 1px solid #eeeeee;
+    float: left;
+    border-top-left-radius: 25px;
+}
+
+aside {
+    width:28%;
+    height: px;
+    float: right;
+    margin-top: 150px;
+    margin-right: 2%;
+    border: 1px solid #eeeeee;
+    margin-bottom: 50px;
+    border-top-right-radius: 25px;
+}
+
+.textoBox {
+    width:48%;
+    float: right;
+    padding: 25px 40px;
+    font-weight: bold;
+    line-height: 35px;
+    text-align: left;
+    font-size: 12pt;
+}
+
+
+
+/*imagem article----*/
+
+#imagem1 {
+    width:%;
+    height:500px;
+    background: #0066c6;
+    float: left;
+    margin-top:49px;
+    margin-left: 2%;
+    border-top-right-radius: 25px
+}
+
+#casinha{
+    position:;
+    width:35%;
+}
+
+#imagem1 > p {
+    text-align: center;
+    color: #f4f4f4;
+    padding:10px;
+    margin-top: 10%;
+    font-size: 16pt;
+    line-height: 2;
+}
+
+#vamosFinanciar {
+    font-size: 35px;
+}
+
+#casaAmarela {
+    text-align: left;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #FFF;
+    float: right;
+    padding-top: 0%;
+    margin-right: 12%;
+    font-size: 11pt;
+}
+
+#simulado {
+    color: red;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Kufam', cursive;
+}
+
+#legenda1 {
+    color: #000;
+    font-weight: bold;
+    margin-left: 43%;
+    font-family: 10pt;
+}
+
+article > h2 {
+    font-weight: bold;
+    margin-left:58%;
+    margin-top: 150px;
+    font-size:25px
+}
+
+#boxLinks {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to left, #226A7F, #41BCD2);
+    justify-content: space-evenly;
+    margin-top:500px;
+}
+
+.links {
+    line-height: 50px;
+}
+
+.links>a {
+    text-decoration: none;
+    color: #FFF
+}
+
+.links a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+#condicoes {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boxCondicoes {
+    width: 30%;
+    height: 200px;
+    border: 1px solid #dddddd;
+    margin-top: 70px;
+    cursor: pointer;
+    padding: 35px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: #FFF;
+}
+
+.boxCondicoes:hover {
+    margin-top: 60px;
+    transition: 0.5s;
+    background: linear-gradient(#0CA894, #36707B);
+    color: #FFF;
+}
+
+.boxCondicoes:hover>h2 {
+    color: #FFF
+}
+
+.boxCondicoes>h2 {
+    text-align: ;
+    font-size: 13pt;
+    padding: 10px 0px;
+}
+
+.boxCondicoes>p {
+    text-align: ;
+    font-size: 12pt;
+}
+
+
+
+/*imagem aside--------*/
+
+.img-aside {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;  
+    width:90%;
+    height:221px;
+    margin: 49px auto;
+    border-top-right-radius: 25px;
+    background: #fffaad;    
+}
+
+.img-aside > p{
+      width:50%;
+      text-align: center;
+}
+
+.img-aside:nth-child(2) {
+    background:#00d6c4;
+}
+
+.img-aside:nth-child(3) {
+    background:#ffd91c;
+}
+
+.img-aside:nth-child(4) {
+    background:#ffc9df;
+
+}
+
+.img-aside:nth-child(5) {
+    background:#c12e7c;
+    color: #FFF;
+}
+
+.img-aside:nth-child(6) {
+    background:#00d6c4;
+}
+
+
+
+
+#divisaVideo {
+    width: 100%;
+    border: 1px solid #fff;
+    margin: 100px 0px;
+}
+
+#dados>h2 {
+    margin-left: 6%;
+    color: #555
+}
+
+table {
+    width: 94%;
+    height: 300px;
+    margin: 30px auto;
+    padding: 10px;
+    background: FFF;
+}
+
+td {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bold;
+    border-bottom: 1px solid #ccc;
+    padding: 15px;
+    color: #444;
+}
+
+.porcento {
+    text-align: center;
+    background: #36707B;
+    color: #FFF;
+}
+
+#renda {
+    width: 94%;
+    height: 250px;
+    display: flex;
+    margin: 50px auto;
+    justify-content: flex-center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0px;
+    box-shadow: 2px 3px 5px #ccc;
+    background: #FFF;
+    border-radius: 5px;
+}
+
+#renda>h2 {
+    padding-top: 10px;
+    color: #007bff;
+}
+
+#renda>p {
+    padding: 15px;
+    width: 78%;
+    color: #444;
+}
+
+#money {
+    width: 70px;
+    height: 70px;
+}
+
+#video {
+    width: 100%;
+    height: 500px;
+}
+
+#filtro_footer {}
+
+footer {}
+
+#autorais {
+    width: 100%;
+    height: 100px;
+    background: #f4f4f4;
+    color: #333;
+}
+
+#autorais>p {
+    line-height: 100px;
+    text-align: center;
+    font-size: 10pt;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+/*MOBILE--------------------------------*/
+
+@media(min-width:320px) and (max-width: 767px) {
+    #logo2 {
+        width: 7%;
+        margin: 5px;
+        position: absolute;
+    }
+    #menuzinho {
+        position: absolute;
+        display: block;
+        width: 10%;
+        margin-left: 85%;
+        margin-top: 9px;
+        cursor: pointer;
+    }
+    #btnFechar {
+        position: absolute;
+        display: block;
+        font-size: 28pt;
+        margin-left: 87%;
+        margin-top: 5px;
+        cursor: pointer;
+        color: #FFF;
+        visibility: hidden;
+    }
+    #btnFechar:hover {
+        text-shadow: 2px 3px 4px #FFF;
+    }
+    nav ul {
+        display: block;
+        margin-left: 0%;
+        background: #000;
+        position: absolute;
+        width: 70%;
+        margin-top: 51px;
+        transform: translateX(-100%);
+        height: 100vh;
+        z-index: 2;
+    }
+    nav li {
+        padding: 15px 0px;
+    }
+    nav ul li:hover {
+        color: #FFF;
+        text-decoration: overline;
+        background: transparent;
+    }
+    #filtro_header {
+        width: 100%;
+        height: 555px
+    }
+    header {
+        background-position: center;
+        background-size: cover;
+        height: 555px;
+        width: 100%;
+    }
+    #textoHeader {
+        padding: 0px 10px;
+        color: #fff;
+        font-size: 20pt;
+        padding-top: 170px;
+    }
+    #blocoChamada {
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+    #textoChamada {
+        font-size: 10pt;
+        text-align: justify;
+    }
+    #blocoTitulo {
+        width: 100%;
+        height: 120px;
+    }
+    #tituloPrincipal {
+        font-size: 24pt;
+        margin-left: 1%;
+    }
+    #textoTitulo {
+        font-size: 10pt;
+        width: 100%;
+        margin-left: 1%;
+        padding: 5px;
+    }
+    #imagem1 {
+        width: 95%;
+        float: none;
+        padding-top: 70px;
+        height: 500px
+    }
+    #imagem1>p {
+        text-align: left;
+        color: #f4f4f4;
+        padding: 10px 15px;
+        font-size: 14pt;
+    }
+    #vamosFinanciar {
+        font-size: 28px;
+    }
+    
+    #boxLinks {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to left, #226A7F, #41BCD2);
+        justify-content: center;
+        margin-top: 100px;
+        text-align: center;
+    }
+    #condicoes {
+        width: 100%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .boxCondicoes {
+        width:100%;
+        height: 200px;
+        border: 1px solid #ccc;
+        margin: 10px auto;
+    }
+    .boxCondicoes:hover {
+        margin-top: 1px;
+    }
+    #perfilSol {
+        width:%;
+        height: 400px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #foto {
+        width:%;
+        border-radius: 150px;
+        display: block;
+        margin: 0 auto;
+    }
+    #perfilSol>p {
+        margin-top: 10px;
+        text-align: center;
+    }
+    #zap {
+        position: relative;
+        width: 100%;
+        height: 30px;
+        margin: 15px auto;
+        padding: 0px 25px;
+    }
+    #nome {
+        font-size: 18pt;
+        height: 80px;
+        line-height: 80px;
+    }
+    article,
+    aside {
+        float: none;
+        width: 98%;
+        height: 100%;
+        margin: 50px auto;
+        background: #FFF;
+    }
+    aside {
+        margin-bottom: 50px;
+    }
+    article>h2 {
+        margin-left: 5%;
+        margin-top:25px;
+        font-size:20px;
+    }
+    .textoBox {
+        padding: 20px;
+        width: 100%;
+        margin: 0;
+    }
+    #divisaVideo {
+        width: 100%;
+        border: 1px solid #dddddd;
+        margin: 50px 0px;
+    }
+    #autorais>p {
+        font-size: 8pt;
+    }
+    table {
+        width: 98%;
+    }
+    /*Aside---------------------------*/
+    .img-aside {
+        width: 98%;
+        height:250px
+    }
+    .img-aside>p {
+        font-size:16px;
+    }
+    #textoBoxAside {
+        padding-top: 100px;
+    }
+    #textoBoxAside3 {
+        width: 60%
+    }
+    #textoBoxAside4 {
+        padding: 80px 20px;
+    }
+}
+
+@media(min-width:360px) and (max-width:480px) {
+    #logo2 {
+        width: 6%;
+        margin: 3px;
+        position: absolute;
+    }
+    #menuzinho {
+        margin-top:7px;
+    }
+    #imagem1 {
+        height: 650px
+    }
+    #imagem1>p {
+        padding-top: 100px;
+    }
+    #vamosFinanciar {
+        font-size: 30px;
+    }
+    
+}
+
+@media(min-width: 480px) {
+    #menuzinho {
+        width: 8%;
+        margin-left: 88%;
+    }
+}
+
+@media(min-width:500px) and (max-width: 700px) {
+
+    #menuzinho {
+        margin-top:5px;
+    }
+
+    #btnFechar {
+        margin-left: 89%;
+    }
+    #textoChamada {
+        font-size: 12pt;
+    }
+}
+
+@media(min-width:700px) {
+    #menuzinho {
+        width: 7%;
+        margin-left: 88%;
+    }
+}
+
+@media(min-width:768px) and (max-width:960px) {
+    #logo {
+        font-size: 18pt;
+        color: #064F5C;
+        line-height: 48px;
+        margin-left: 2%;
+        float: left;
+    }
+    nav ul {
+        display: flex;
+        margin-left: 39%;
+    }
+    nav li {
+        font-size: 10pt;
+    }
+    #textoChamada {
+        font-size: 14pt;
+    }
+    #imagem1 {
+        width: 56%;
+        margin: 20px 2%;
+        float: left;
+    }
+    article {
+        width: 70%;
+        height: px;
+    }
+    aside {
+        width: 24%;
+        height: 1935px;
+    }
+    article>h2 {
+        margin-top: 30px;
+        font-size: 16pt
+    }
+    .img-aside {
+        width: 100%;
+        margin-top: 200px;
+    }
+    .textoBox {
+        padding: 15px 40px;
+        line-height: 15px;
+        font-size: 10pt;
+    }
+    .textoBox2 {
+        padding: 10px;
+        font-weight: bold;
+        line-height: 15px;
+        margin-left: 0%;
+        width: 100%;
+        font-size: 10pt;
+    }
+    #textoHeader2 {
+        margin-left: 7%;
+        color: #FFF;
+    }
+    #condicoes {
+        height: px;
+    }
+    .boxCondicoes {
+        width: 170px;
+    }
+    .boxCondicoes>h2 {
+        text-align: left;
+        font-size: 9pt;
+    }
+    .boxCondicoes>p {
+        text-align: ;
+        font-size: pt;
+        padding-top: 5px;
+    }
+    #perfilSol {
+        width: 65%;
+        height: 150px
+    }
+    #perfilSol>p {
+        margin-top: 40px;
+        text-align: center;
+    }
+    #zap {
+        position: absolute;
+        width: 20%;
+        height: 30px;
+        margin-top: 75px;
+        padding: 0px 25px;
+        left: 53%;
+    }
+}
+
+@media(min-width:966px) and (max-width: 1024px) {
+    header {
+        height: 555px
+    }
+    nav ul {
+        margin-left: 50%;
+    }
+    nav li {
+        font-size: 11pt;
+    }
+    #textoHeader {
+        padding-top: 200px;
+        font-size: 25pt;
+    }
+    #textoHeader2 {
+        margin-left: 5%;
+    }
+    article {
+        height: px
+    }
+    aside {
+        height: 1740px;
+    }
+    article>h2 {
+        margin-top:100px;
+        font-size:20px
+    }
+
+    #imagem1 {
+        width:48%;
+        height: 450px;
+        margin: 20px 2%;
+        float: left;
+    }
+    .textoBox {
+        padding:15px 40px;
+        line-height:1;
+        font-size:16px;
+        margin-top:5%;
+    }
+
+    #vamosFinanciar {
+        font-size:25px;
+    }
+
+    .img-aside > p{
+      width:80%;
+      text-align: center;
+}
+
+    .boxCondicoes>h2 {
+        text-align: left;
+        font-size: 10pt;
+    }
+    .boxCondicoes>p {
+        text-align: ;
+        font-size: 9pt;
+        padding-top: 5px;
+    }
+    #perfilSol {
+        width:%;
+        height: 200px;
+    }
+    #foto {
+        width:%;
+        height: 100px;
+        border-radius: 150px;
+        margin: 5%;
+        display: block;
+        margin-left: 22%;
+    }
+    #perfilSol>p {
+        margin-top: 60px;
+        text-align: left;
+        margin-left: 0%;
+    }
+    #zap {
+        height: 30px;
+        margin-top: 100px;
+        padding: 0px 0px;
+        left: 56%;
+    }
+}
+
+@media(min-width: 1024px) and (max-width: 1920px) {
+    nav ul {
+        margin-left: 48%;
+    }
+    nav li {
+        font-size: 11pt;
+    }
+    #imagem1 {
+        width: 50%;
+        height: px;
+    }
+}
